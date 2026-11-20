@@ -26,6 +26,7 @@ export const dashboardTranslations: Record<Language, Record<string, string>> = {
     navAlerts: "Alerts",
     navReports: "History & Reports",
     navDevices: "Device Settings",
+    navHardware3D: "3D Hardware Model",
     platformModules: "Platform Modules",
     sensorsOnline: "Sensors Online",
 
@@ -148,6 +149,7 @@ export const dashboardTranslations: Record<Language, Record<string, string>> = {
     navAlerts: "अलर्ट व चेतावनी",
     navReports: "इतिहास व रिपोर्ट",
     navDevices: "डिवाइस सेटिंग्स",
+    navHardware3D: "3D हार्डवेयर मॉडल",
     platformModules: "प्लेटफ़ॉर्म मॉड्यूल",
     sensorsOnline: "सेंसर ऑनलाइन",
 

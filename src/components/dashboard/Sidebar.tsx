@@ -18,6 +18,7 @@ import {
   Sparkles,
   ChevronRight,
   Globe,
+  Box,
 } from "lucide-react";
 
 interface SidebarProps {
@@ -81,6 +82,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, onCloseMobile }) =
       href: "/dashboard/devices",
       icon: Settings,
       badge: null,
+    },
+    {
+      name: t("navHardware3D", "3D Hardware Model"),
+      href: "/dashboard/hardware-3d",
+      icon: Box,
+      badge: "3D",
+      badgeColor: "bg-emerald-600 text-white font-mono",
     },
   ];
 
